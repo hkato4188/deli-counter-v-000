@@ -1,12 +1,11 @@
 require 'pry'
 
 def line(deli_line)
-  line_order = ["The line is currently:"]
-
-
   if deli_line.length == 0
     puts "The line is currently empty."
-  else deli_line.each_with_index do |customer, number|
+  else
+    line_order = ["The line is currently:"]
+    deli_line.each_with_index do |customer, number|
     line_order << "#{number + 1}. #{customer}"
       end
   end
