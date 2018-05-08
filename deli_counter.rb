@@ -8,8 +8,8 @@ def line(deli_line)
     deli_line.each_with_index do |customer, number|
     line_order << "#{number + 1}. #{customer}"
       end
+    puts line_order.join(" ")
   end
-  puts line_order.join(" ")
 end
 
 
