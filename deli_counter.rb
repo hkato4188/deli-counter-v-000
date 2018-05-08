@@ -1,5 +1,5 @@
-def line()
-  
+def line(argument)
+
 end
 
 
