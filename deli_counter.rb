@@ -11,6 +11,7 @@ binding.pry
     line_order << "#{number + 1}. #{customer}"
       end
   end
+  line_order
 end
 
 
