@@ -1,7 +1,6 @@
 require 'pry'
 
 def line(deli_line)
-binding.pry
   line_order = ["The line is currently:"]
 
 
