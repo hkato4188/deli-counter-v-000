@@ -1,4 +1,6 @@
-
+def line()
+  
+end
 
 
 
