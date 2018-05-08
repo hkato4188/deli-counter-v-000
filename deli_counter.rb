@@ -4,7 +4,6 @@ def line(deli_line)
   else deli_line.each_with_index.map do |customer, number|
     puts "The line is currently: #{number} #{customer}"
   end
-  end
 end
 
 
