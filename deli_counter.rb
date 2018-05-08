@@ -1,4 +1,7 @@
+require 'pry'
 def line(deli_line)
+binding.pry
+
   if deli_line.length == 0
     puts "The line is currently empty."
   else deli_line.each_with_index.map do |customer, number|
