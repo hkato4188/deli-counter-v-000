@@ -10,7 +10,7 @@ def line(deli_line)
     line_order << "#{number + 1}. #{customer}"
       end
   end
-  puts "line_order.join(" ")"
+  puts line_order.join(" ")
 end
 
 
